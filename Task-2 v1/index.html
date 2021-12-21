@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stop-watch-style.css">
+    <title>StopWatch</title>
+</head>
+
+<body>
+    <section class="main main-inc" id="main">
+        <div>
+            <h1 id="timer">00:00:00.0<span id="subScript" class="scriptStyling">00</span></h1>
+        </div>
+        <div id="script-button-heading">
+            <h1 id="split-title">Split Time</h1>
+        </div>
+        <div id="stop-watch-buttons">
+            <button class="button1" id="btn1">
+                Start
+            </button>
+            <button class="button2" id="btn2" disabled>
+                Split
+            </button>
+            <button class="button3" id="btn3" disabled>
+                Reset
+            </button>
+        </div>
+        <div>
+            <div>
+                <div>
+                    <hr>
+                </div>
+                <div id="tableData">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
